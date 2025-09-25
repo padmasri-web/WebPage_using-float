@@ -1,0 +1,159 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+   /* border: solid red; */
+    margin:auto;
+    width:70%;
+    margin-top: 20px;
+}
+
+.parent1{
+    border: 1px solid black;
+    width:100%;
+    height: 110px;
+    color: white;
+    background: linear-gradient(to right, #0f2df1 0%, #03bef2 100%);
+}
+
+.text{
+    /*border: 1px solid green;*/
+    float: left;
+    margin-top: 19px;
+    margin-left: 15px;
+    line-height: 0.7px;
+    font-size: larger;
+}
+
+.button{
+    border: 0.8px solid rgb(233, 231, 231);
+    float:right;
+    margin-top: 41px;
+    font-size: large;
+    margin-right: 25px;
+    border-radius: 8px;
+    padding: 9px;
+    background-color:#0290b8;
+    font-weight: bold;
+    
+}
+
+.parent2{
+    height: 100%;
+}
+
+.sidebar{
+   border: 0.3px solid grey; 
+   width: 20%;
+   height:515px;
+   padding-left: 15px;
+   float: left;
+   
+}
+
+.sidebar p{
+    font-size: large;
+}
+
+.bigsidebar{
+    /*border:2px solid pink;*/
+    width:75%;
+    height:100%;
+    margin-left: 5px;
+    float:right;
+    margin-top: 7px;
+}
+
+.child1{
+    padding-left:3px;
+
+    /* line height ?? */
+
+    border: 0.2px solid grey;
+}
+
+.child1 p{
+    font-size: medium;
+    color: gray;
+    
+}
+
+.child2{
+    border: 0.2px solid gray;
+    width:30%;
+    margin-top: 15px;
+    float: left;
+    padding-left: 10px;
+    
+}
+
+.parent3{
+    width: 100%;
+}
+
+.child2 p{
+    color: grey;
+}
+
+.child3{
+    border: 0.2px solid gray;
+    width:30%;
+    margin-top: 15px;
+    float:left;
+    margin-left: 3%;
+    padding-left: 10px;
+}
+
+.child3 p{
+    color: grey;
+}
+
+.child4{
+    border: 0.2px solid gray;
+    width:30%;
+    margin-top: 15px;
+    float:right;
+    padding-left: 10px;
+}
+
+.child4 p{
+    color:gray;
+}
+
+
+
+
+  .child5 {
+    border: 0.2px solid gray; 
+    margin-top: 180px;
+    
+}  
+
+.circle {
+    width: 100px;
+    height: 100px;
+    float:left;
+    background:linear-gradient(to right, #0f2df1 0%, #03bef2 100%);
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left:60px;
+}
+
+.righttext{
+    margin-top: 14px;
+    margin-right: 10px;
+    width:45%;
+    float: right;
+    margin-right: 80px;
+
+
+}
+
+.righttext p{
+    font-size: medium;
+    margin-top: 0px;
+}
+.fix{
+    clear: both;
+}
